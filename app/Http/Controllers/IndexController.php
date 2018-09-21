@@ -11,6 +11,6 @@ class IndexController extends Controller
     	// 1.未登录跳转至登录页面
     	// ...
     	// 2.登录的话就转至个人主页
-    	return view('User.home');
+    	return view('login.login');
     }
 }

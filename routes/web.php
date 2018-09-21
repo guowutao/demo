@@ -16,3 +16,6 @@
 // });
 
 Route::get('/', 'IndexController@index');
+
+Route::resource('/user', 'UserController');
+Route::post('/user/home', 'UserController@home')->name('user.home');

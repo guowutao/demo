@@ -15,4 +15,5 @@ mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css')
    .copyDirectory('resources/assets/font-awesome/css', 'public/css')
    .copyDirectory('resources/assets/adminlte/css', 'public/css')
+   .copyDirectory('resources/assets/adminlte/js', 'public/js')
    ;
